@@ -1,0 +1,27 @@
+[
+    {
+        "username":"sanjeeva.r@codilar.com",
+        "password":"Test#123",
+        "expectedResult": "Valid "
+    },
+    {
+        "username":"piyush.k+4@codilar.com",
+        "password":"Piyush@codilar1234",
+        "expectedResult": "invaliid "
+    },
+    {
+        "username":"piyush.k+5@codilar.com",
+        "password":"Piyush@codilar12345",
+        "expectedResult": "invaliid "
+    },
+    {
+        "username":"piyush.k+7@codilar.com",
+        "password":"Piyush@codilar12345",
+        "expectedResult": "invaliid "
+    },
+    {
+        "username":"piyush.k+3@codilar.com",
+        "password":"Piyush@codilar123",
+        "expectedResult": "valiid "
+    }
+]
